@@ -96,7 +96,6 @@ This RAG system achieves superior accuracy compared to standard fine-tuning or z
 
 I am actively seeking AI Engineering roles and would love to discuss the technical decisions and future scalability of this project.
 
-**My LinkedIn:** [https://www.linkedin.com/in/piyush2707/]
-*(Replace the link above with your actual LinkedIn profile URL)*
+**My LinkedIn:** [Piyush's Profile (piyush2707)](https://www.linkedin.com/in/piyush2707/)
 
 **Thank you for reviewing my work!**
