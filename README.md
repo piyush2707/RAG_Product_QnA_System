@@ -49,4 +49,4 @@ This project demonstrates the implementation of a **Retrieval-Augmented Generati
 * Containerize the application using a `Dockerfile`.
 * Implement a `/query` endpoint using FastAPI.
 * Add Unit Tests for ingestion and retrieval accuracy.
-* 
+  
