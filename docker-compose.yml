@@ -1,0 +1,24 @@
+version: '3.8' # Use a modern Docker Compose version
+
+services:
+  rag_service:
+    # 1. Build the image using the Dockerfile in the current directory
+    build: .
+    
+    # 2. Assign a friendly name to the container
+    container_name: product-qna-rag-service
+    
+    # 3. Map the container port (8000) to a host port (8000)
+    ports:
+      - "8000:8000"
+      
+    # 4. Define the necessary environment variables
+    # The API key should be securely passed from your host environment
+    environment:
+      # This pulls the MISTRAL_API_KEY from your local machine's environment variables
+      # (where you ran 'export MISTRAL_API_KEY="YOUR_KEY_HERE"')
+      MISTRAL_API_KEY: ${MISTRAL_API_KEY}
+      # You can add other configurations here if needed, like CHROMA_HOST, etc.
+      
+    # 5. Restart policy ensures the container attempts to restart if it fails
+    restart: unless-stopped
