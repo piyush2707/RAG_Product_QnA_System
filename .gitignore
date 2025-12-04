@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+/models/chroma_db/ # IGNORE the large, generated vector database
+data/               # Generally ignore large data files, but for this project, 
+                    # if your manuals are small, you might omit this line
+                    # so reviewers can see the source data.
+# Keys and credentials
+.env
+*.key
+*.pem
+*.secret
