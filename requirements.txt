@@ -1,0 +1,17 @@
+# Core Libraries
+langchain
+langchain-community
+langchain-mistralai
+
+# Data Loading and Processing
+pypdf
+unstructured
+sentence-transformers
+
+# Vector Store
+chromadb
+
+# Deployment (Phase 3)
+fastapi
+uvicorn
+python-multipart
